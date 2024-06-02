@@ -213,3 +213,23 @@ li {
     font-weight: 800;
     color: #FFF;
  }
+
+ /* ============================================================================
+
+                              Footer Section Styles
+
+ ============================================================================ */
+
+ .footer-section {
+    background-color: #1F2937;
+    padding: 40px 0;
+ }
+
+ .site-footer {
+    text-align: center;
+ }
+
+ .copyright-text {
+    font-size: 18px;
+    color: #F9FAF8;
+ }
