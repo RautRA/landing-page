@@ -174,3 +174,42 @@ li {
     font-style: normal;
     font-weight: 800;
 }
+
+/* ============================================================================
+
+                              Call To Action Section Styles
+
+ ============================================================================ */
+
+ .cta-section {
+    background-color: #3882F6;
+    width: 80%;
+    margin: 100px auto;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .cta-title {
+    font-size: 20px;
+    color: #FFF;
+ }
+
+ .cta-subtext {
+    font-size: 18px;
+    color: #F9FAF8;
+ }
+
+ .sign-up-btn {
+    padding: 4px 36px;
+    background-color: #3882F6;
+    border: 2px solid #FFF;
+    border-radius: 8px;
+ }
+
+ .sign-up-btn a {
+    font-size: 18px;
+    font-weight: 800;
+    color: #FFF;
+ }
