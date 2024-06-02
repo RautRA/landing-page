@@ -1,0 +1,100 @@
+/* ============================================================================
+
+                              CSS Reset Styles
+
+ ============================================================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* ============================================================================
+
+                              Hero Section Styles
+
+ ============================================================================ */
+
+.hero-section {
+    background-color: #1F2937;
+}
+
+.site-header {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo a {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-nav .nav-links {
+    display: flex;
+    gap: 24px;
+}
+
+.header-nav a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-content {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-img {
+    width: 50%;
+    max-width: 100%;
+    border: 1px solid #FFF;
+    text-align: center;
+    color: #FFF;
+}
+
+.hero-title-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 25px;
+}
+
+.hero-cta-btn {
+    background-color: #3882F6;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 6px 36px;
+    margin-top: 25px;
+    border: 0;
+    border-radius: 8px;
+}
